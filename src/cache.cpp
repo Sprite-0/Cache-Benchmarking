@@ -348,7 +348,7 @@ int main() {
 
     // Create the CSV file
     ofstream csv(
-        "cache_refined_tlb_results.csv"
+        "cache_results.csv"
     );
 
     if (!csv.is_open()) {
@@ -404,7 +404,7 @@ int main() {
         cout << "Benchmark completed successfully.\n";
 
         cout << "Results saved to "
-             << "cache_refined_tlb_results.csv\n";
+             << "cache_results.csv\n";
 
     } else {
 
