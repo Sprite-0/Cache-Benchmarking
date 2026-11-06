@@ -1,7 +1,7 @@
 import csv
 import matplotlib.pyplot as plt
 
-filename = "cache_refined_tlb_results.csv"
+filename = "cache_results.csv"
 
 working_set = []
 median_latency = []
@@ -33,7 +33,7 @@ plt.xscale("log", base=2)
 plt.grid(True, linestyle="--", alpha=0.5)
 
 plt.tight_layout()
-plt.savefig("cache_latency_plot.png", dpi=300)
+plt.savefig("cache.png", dpi=300)
 plt.show()
 
-print("Plot saved as cache_latency_plot.png")
+print("Plot saved as cache.png")
